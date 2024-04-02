@@ -1,4 +1,4 @@
-# INCF 19.1 An LLM-assisted service for annotating research data with machine-understandable, semantic data dictionaries
+# INCF 19.1  An LLM-assisted service for annotating research data with machine-understandable, semantic data dictionaries
 
   
 
@@ -25,7 +25,7 @@ This project aims to enhance Neurobagel's annotation tool with LLM-driven assist
 
 **Why is it important?**
 
-Data annotation is crucial for enhancing the performance and accuracy of AI models, particularly in low-resource and low-shot machine learning (LLMS) scenarios[[2]](https://www.larksuite.com/en_us/topics/ai-glossary/data-annotation-for-llms). Automated data annotation using LangChain can significantly improve the efficiency and resource optimization of AI algorithms, enabling them to operate effectively with limited data samples[2].The process of fine-tuning large language models (LLMs) with annotated datasets is essential for achieving optimal performance in specific tasks[1]. By leveraging LangChain's LLM-based recommendations, human experts can streamline the annotation process, reducing the time and effort required for manual annotation[5]. This automation can lead to enhanced performance, resource optimization, and inclusivity in AI solutions tailored for diverse environments and resource constraints[2].
+Data annotation is crucial for enhancing the performance and accuracy of AI models, particularly in low-resource and low-shot machine learning (LLMS) scenarios[2]. Automated data annotation using LangChain can significantly improve the efficiency and resource optimization of AI algorithms, enabling them to operate effectively with limited data samples[2].The process of fine-tuning large language models (LLMs) with annotated datasets is essential for achieving optimal performance in specific tasks[1]. By leveraging LangChain's LLM-based recommendations, human experts can streamline the annotation process, reducing the time and effort required for manual annotation[5]. This automation can lead to enhanced performance, resource optimization, and inclusivity in AI solutions tailored for diverse environments and resource constraints[2].
 
 The benefits of automating data annotation with LangChain include:
 
@@ -47,9 +47,7 @@ In conclusion, automating data annotation with LangChain is essential for addres
 **Project in detail**
 
 My approach involves a thorough exploration of LLM agents, examining their capabilities and potential applications in data annotation. This entails studying the architecture of LLM agents, understanding their core components, and analyzing techniques for task decomposition. Subsequently, I will focus on understanding the requirements of agent-based modeling in data annotation, including challenges such as perception, reasoning, and adaptivity. Armed with this understanding, I will design and implement a dummy LLM-driven agent tailored for data annotation tasks, considering factors like core logic, memory modules, and planning mechanisms. Through extensive testing and evaluation, I will assess the agent's performance in terms of accuracy, efficiency, and user-friendliness, comparing its results with manually annotated data and gathering feedback for improvement. Iterative refinement of the LLM-driven agent and the Neurobagel annotation tool will follow, with continuous communication with stakeholders to ensure alignment and documentation of the development process for future reference and knowledge transfer.
-
-
-![Solution Architecture](https://lh7-us.googleusercontent.com/62FPyuJPrluTdbxxaglzbUcXD04OTIs_yrPyj3fT4hiinpAZFIwvtecWJmPV7wkNhMHk7nF-DCqPt029ncJMA8KYKHYGxn_4sKAB2O9H2Xe_NiNS7rU4i3AjFONB81Ql36BYnBcVy5iOmJ_NGQjjkPM)
+**![](https://lh7-us.googleusercontent.com/1PFM3ljXizjDoCsIo1A0uC9BHZuEOhNMMcxjVEc0OFqCjXqdwwSi7gfT73Ek46Mmc8JjoOJ_8XOpyLYK37nDqlydOOC3ozf5cdCtx12MD6vA_7_bMSJOwQM_QDeM8lUamST3YiltD4OWTpQmdYsRofw)**
 
   
 
@@ -61,7 +59,7 @@ My approach involves a thorough exploration of LLM agents, examining their capab
     
 -   Core logic implementation for initial annotation suggestions and variable mapping recommendations.
     
-  -  Testing and debugging to ensure the reliability and accuracy of the LLM-driven annotation assistant.
+  -  Testing and debugging to ensure reliability and accuracy of the LLM-driven annotation assistant.
     
 -   Documentation of the development process, including design decisions and implementation details.
     
@@ -141,17 +139,46 @@ My approach involves a thorough exploration of LLM agents, examining their capab
 I propose to maintain regular communication with my mentor through weekly email updates and scheduled Gmeets. These channels will facilitate ongoing discussions about project progress, addressing any issues promptly. Additionally, the frequency of Gmeet calls may increase as needed to ensure alignment and timely resolution of challenges.
 
 ## Candidate details
+
 **Motivation - Why do you want to do this Project?**
+
 I have been an active contributor to several projects since the start of my freshman year and have been contributing to several institute projects also. I always wanted to try my hands on the field which lies at the intersection of neuroscience and Artificial Intelligence. Although I did gain some exposure to Artificial Intelligence and the use of LLMs and relevant libraries, such as LangChain during coursework at my university and hackathon, I still haven’t had a chance at neuroscience yet. This Project, I believe will help me gain new insights and hopefully introduce me to the fundamentals of  and its other related use-cases. Additionally, I participated in GirlScript Summer of Code 2023 as an Open Source Contributor, remotely based in Mumbai, India from May 2023 to July 2023. During this time, I implemented a novel charting component using D3.js, providing users with an intuitive and customizable way to visualize complex datasets within the library. Furthermore, I integrated a real-time code collaboration feature using WebSockets and CodeMirror, facilitating seamless pair programming and code reviews for developers within the platform.
 
 **Match - tell us about something you've worked on in the past that would make you a good candidate for this project**
+
 With a solid foundation in Python programming cultivated since the inception of my academic journey, bolstered by proficiency in libraries such as Numpy and Scipy, I stand prepared to tackle diverse challenges. Additionally, my adeptness in navigating Linux environments, including command-line operations, positions me favorably to swiftly adapt to Docker-related tasks, underpinned by the wealth of comprehensive documentation and tutorials available. This amalgamation of skills and experience assures a seamless transition and effective contribution to the project at an international level.
 
 **You can apply for up to three projects. Is this the only project that you will apply for?**
-YES, this is the ONLY project I am applying for.
+
+NO, this is not the only project I am applying for.
 
 **Working time - how many hours per week do you plan to work, and how will you divide your time?**
+
 40 hours / week  rounding to about 6 to 8 hours on a daily basis.
 
 **Do you have any other plans for the work period (school work, another job, planned vacation)? If so, how do you plan to combine them with your work?**
+
 My 12-week summer vacations begin from 10th May. I don’t have any major commitments in the GSoC Period, thus, this project will be my top priority. My next semester starts around the last week of August. The academic pressure isn’t heavy in this time-frame, Thus, I would be able to devote my time in the last few weeks of coding period as well.
+
+**References**
+
+https://megagon.ai/llms-as-data-annote-p1-challs-opps/
+
+https://www.xenonstack.com/blog/llms-revolutionizing-data-annotation-for-the-ai-age
+
+https://www.larksuite.com/en_us/topics/ai-glossary/data-annotation-for-llms
+
+https://arxiv.org/abs/2402.13446
+
+https://ubiai.tools/revolutionizing-machine-learning-the-role-of-data-annotation-in-llm-projects-success/
+
+https://kili-technology.com/large-language-models-llms/data-labeling-and-large-language-models-training
+
+https://www.superannotate.com/blog/data-annotation-guide#large-language-models-llm-annotation
+
+
+
+
+
+ 
+
