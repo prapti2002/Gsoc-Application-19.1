@@ -47,7 +47,9 @@ In conclusion, automating data annotation with LangChain is essential for addres
 **Project in detail**
 
 My approach involves a thorough exploration of LLM agents, examining their capabilities and potential applications in data annotation. This entails studying the architecture of LLM agents, understanding their core components, and analyzing techniques for task decomposition. Subsequently, I will focus on understanding the requirements of agent-based modeling in data annotation, including challenges such as perception, reasoning, and adaptivity. Armed with this understanding, I will design and implement a dummy LLM-driven agent tailored for data annotation tasks, considering factors like core logic, memory modules, and planning mechanisms. Through extensive testing and evaluation, I will assess the agent's performance in terms of accuracy, efficiency, and user-friendliness, comparing its results with manually annotated data and gathering feedback for improvement. Iterative refinement of the LLM-driven agent and the Neurobagel annotation tool will follow, with continuous communication with stakeholders to ensure alignment and documentation of the development process for future reference and knowledge transfer.
-![enter image description here](https://lh7-us.googleusercontent.com/62FPyuJPrluTdbxxaglzbUcXD04OTIs_yrPyj3fT4hiinpAZFIwvtecWJmPV7wkNhMHk7nF-DCqPt029ncJMA8KYKHYGxn_4sKAB2O9H2Xe_NiNS7rU4i3AjFONB81Ql36BYnBcVy5iOmJ_NGQjjkPM)
+
+
+![Solution Architecture](https://lh7-us.googleusercontent.com/62FPyuJPrluTdbxxaglzbUcXD04OTIs_yrPyj3fT4hiinpAZFIwvtecWJmPV7wkNhMHk7nF-DCqPt029ncJMA8KYKHYGxn_4sKAB2O9H2Xe_NiNS7rU4i3AjFONB81Ql36BYnBcVy5iOmJ_NGQjjkPM)
 
   
 
@@ -59,7 +61,7 @@ My approach involves a thorough exploration of LLM agents, examining their capab
     
 -   Core logic implementation for initial annotation suggestions and variable mapping recommendations.
     
-  -  Testing and debugging to ensure reliability and accuracy of the LLM-driven annotation assistant.
+  -  Testing and debugging to ensure the reliability and accuracy of the LLM-driven annotation assistant.
     
 -   Documentation of the development process, including design decisions and implementation details.
     
